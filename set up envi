@@ -1,0 +1,11 @@
+# Create a virtual environment
+python -m venv langchain-env
+
+# Activate the virtual environment
+# On Windows
+langchain-env\Scripts\activate
+# On macOS/Linux
+source langchain-env/bin/activate
+
+# Install required packages
+pip install langchain flask
